@@ -18,7 +18,7 @@ def main():
     tn = telnetlib.Telnet()
 
     def sendCommand(host_address, port, command):
-        tn.open(str(host_address), int(port), 5)
+        tn.open(str(host_address), int(port), 1)
         tn.write(command.encode("ascii")+b"\r\n")
         tn.close()
 
