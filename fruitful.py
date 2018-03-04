@@ -2,7 +2,7 @@ import sys, traceback, telnetlib, time
 
 def main():
     if len(sys.argv) < 4:
-        print("Invalid Arguments, instead use: fruitful.py port command address1 adress2 ...")
+        print("Invalid Arguments, instead use: fruitful.py port command address1 address2 ...")
         sys.exit()
 
     path_of_script = sys.argv[0]
